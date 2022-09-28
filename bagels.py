@@ -11,9 +11,9 @@ def main():
 I am thinking of a {}-digit number with no repeated digits.
 Try guess what it is. Here are some clues:
 When I say:        That means:
-  Pico             One digit is correct but inthe wrong position.
-  Fermi            One digit is correct but inthe wrong position.
-  Bagels           One digit is correct but inthe wrong position.
+  Pico             One digit is correct but in the wrong position.
+  Fermi            One digit is correct and in the right position.
+  Bagels           No digit is correct in any position.
 
 For example, if the secret number was 248 and yournguess was 843, the
 clues would Fermi Pico.'''.format(NUM_DIGITS))

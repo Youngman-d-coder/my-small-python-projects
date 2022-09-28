@@ -12,7 +12,7 @@ while True:
 	a = int(input("please choose from the menu : ")) 
 	if a >= 1 and a <= 5:
 		b = int(input ("enter first number : " ))
-		c = int(input ("enter first number : " ))
+		c = int(input ("enter second number : " ))
 		if a == 1:
 			ans = b + c
 			print (b, '+', c, '=', ans)
